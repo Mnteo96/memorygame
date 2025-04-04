@@ -146,5 +146,9 @@ body p{
     .cards {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
       }
+
+      .win-screen h2{
+        font-size: 1.6rem;
+    }
   }
 
