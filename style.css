@@ -126,14 +126,28 @@ body p{
     border-radius: 5px;
     color: #485a5b;
   }
-
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
 
     .cards{
-      grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
-      gap: 2px;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 2px;
     }
-      
+    
+    .card {
+      width: 100px;
+      height: 100px;
+      margin: 5px;
+    }
+  }
+
+
+  @media screen and (max-width: 500px) {
+
+    .cards{
+        grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+        gap: 2px;
+    }
+    
     .card {
       width: 60px;
       height: 60px;
@@ -148,9 +162,8 @@ body p{
       width: 100%;
       height: auto;
     }
-
       .win-screen h2{
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
   }
 
