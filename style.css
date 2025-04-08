@@ -128,6 +128,12 @@ body p{
   }
 
   @media screen and (max-width: 768px) {
+
+    .cards{
+      grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+      gap: 2px;
+    }
+      
     .card {
       width: 100px;
       height: 100px;
@@ -142,10 +148,6 @@ body p{
       width: 100%;
       height: auto;
     }
-
-    .cards {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-      }
 
       .win-screen h2{
         font-size: 1rem;
