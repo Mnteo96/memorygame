@@ -135,8 +135,8 @@ body p{
     }
       
     .card {
-      width: 100px;
-      height: 100px;
+      width: 60px;
+      height: 60px;
       margin: 5px;
     }
   
@@ -150,7 +150,7 @@ body p{
     }
 
       .win-screen h2{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
   }
 
